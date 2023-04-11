@@ -1,0 +1,82 @@
+.header {
+	background-image: url("../img/milkbg.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+	border-radius: 10px;
+	padding: 25px 50px 25px 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.description h1 {
+	color: #ffffff;
+	font-size: 70px;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.container-title {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.product {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.product h3,
+.product p {
+	text-align: center;
+}
+
+.product img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.background {
+	background: #a6a6a6;
+	padding: 4em 0;
+}
+
+.background img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.page-footer {
+	background-color: #40c0e3;
+	text-align: center;
+	padding: 20px;
+}
+
+.page-footer h2,
+.page-footer p {
+	color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+
+	.background img {
+		width: 50%;
+		height: 50%;
+	}
+
+}
